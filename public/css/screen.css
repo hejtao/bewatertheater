@@ -201,6 +201,7 @@ a.btn {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: lighter;
+  opacity: 0.7;
 }
 
 a.btn:hover {
@@ -503,6 +504,7 @@ ul li {
   margin: 10px 0 10px 0;
   font-size: 5rem;
   letter-spacing: -1px;
+  opacity: 0.6;
 }
 
 .blog-description {
@@ -510,8 +512,9 @@ ul li {
   font-size: 2.5rem;
   line-height: 1.5em;
   font-weight: 400;
-  font-family: "Roboto Slab", serif;
+  font-family:  "Roboto Slab", serif;
   letter-spacing: 0;
+  opacity: 0.7;
 }
 
 .post-holder {
