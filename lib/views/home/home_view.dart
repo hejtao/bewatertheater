@@ -8,30 +8,30 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: ListView(
-      children: [
-        Container(
-          height: MediaQuery.of(context).size.height,
-          width: MediaQuery.of(context).size.width,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              image: AssetImage("assets/bg.jpg"),
-              fit: BoxFit.cover,
-            ),
-          ),
-          child: CenteredView(
-            child: Column(
-              children: <Widget>[
-                NavigationBar(),
-              ],
-            ),
-          ),
+        appBar: AppBar(
+          backgroundColor: Colors.black87,
+          title: CenteredView(
+                child: NavigationBar(),
+              ),
+          
         ),
-        Container(
-          height: MediaQuery.of(context).size.height,
-          width: MediaQuery.of(context).size.width,
-        )
-      ],
-    ));
+        body: ListView(
+          children: [
+            Container(
+              height: MediaQuery.of(context).size.height,
+              // width: MediaQuery.of(context).size.width,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: AssetImage("assets/bg.jpg"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+              child: null,
+            ),
+            Container(
+              height: MediaQuery.of(context).size.height,
+            )
+          ],
+        ));
   }
 }
