@@ -31,7 +31,7 @@ class NavigationBar extends StatelessWidget {
 
 class _NavBarItem extends StatelessWidget {
   final String title;
-  const _NavBarItem(this.title, {Key key,}) : super(key: key);
+  const _NavBarItem(this.title, {Key? key,}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

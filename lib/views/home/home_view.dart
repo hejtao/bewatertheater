@@ -3,7 +3,7 @@ import 'package:bewatertheater/widgets/centered_view/centered_view.dart';
 import 'package:bewatertheater/widgets/navigation_bar/navigation_bar.dart';
 
 class HomeView extends StatelessWidget {
-  const HomeView({Key key}) : super(key: key);
+  const HomeView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
