@@ -9,11 +9,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Be Water Theater',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: HomeView()
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'Be Water Theater',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: HomeView());
   }
 }

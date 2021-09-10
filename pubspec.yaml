@@ -80,12 +80,12 @@ flutter:
     - family: Diary
       fonts:
         - asset: assets/fonts/HanyiSentyDiary.ttf
-    - family: Kaiti
-      fonts:
-        - asset: assets/fonts/Kaiti.ttf
+    # - family: Kaiti
+    #   fonts:
+    #     - asset: assets/fonts/Kaiti.ttf
     - family: Meadow
       fonts:
         - asset: assets/fonts/HanyiSentyMeadow.ttf
-    - family: MARUKO
-      fonts:
-        - asset: assets/fonts/SentyMARUKO.ttf
+    # - family: MARUKO
+    #   fonts:
+    #     - asset: assets/fonts/SentyMARUKO.ttf
