@@ -29,27 +29,29 @@
 
   <title>bewatertheater</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-  <style>
+  <!-- <style>
     .center {
       margin: 0;
       position: absolute;
-      top: 10%;
-      left: 10%;
+      top: 50%;
+      left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%)
     }
   </style>
-  <img src="img/spinning.png" class="center"/>
+  <img src="img/spinning.png" class="center"/> -->
+  <div class="loader">Loading...</div>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
 
 
   <script>
-    var serviceWorkerVersion = '1749052864';
+    var serviceWorkerVersion = '4153257176';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
