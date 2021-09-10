@@ -31,24 +31,15 @@
 
   <title>bewatertheater</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="splash/style.css">
 </head>
 <body style="position: fixed; inset: 0px; overflow: hidden; padding: 0px; margin: 0px; user-select: none; touch-action: none; font: 14px sans-serif; color: red;">
-  <style>
-    .center {
-      margin: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%)
-    }
-  </style>
-  <div class="center"><img src="img/mac-spinning-wheel.gif" width="50" height="50" /></div>
+  <div class="spinning center"></div>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '3381091628';
+    var serviceWorkerVersion = '2265158255';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
