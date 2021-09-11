@@ -1,9 +1,9 @@
 {
     "name": "Be Water Theater",
-    "short_name": "Be Water Theater",
+    "short_name": "bewatertheaterxx",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#00000",
+    "background_color": "#0175C2",
     "theme_color": "#0175C2",
     "description": "A new Flutter project.",
     "orientation": "portrait-primary",
