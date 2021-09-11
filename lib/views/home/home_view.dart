@@ -9,7 +9,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ctxWidth = MediaQuery.of(context).size.width;
-    final ctxHeight = MediaQuery.of(context).size.height;
+    final ctxHeight = MediaQuery.of(context).size.height+kToolbarHeight;
     final listItems = [
       Stack(alignment: Alignment.topCenter, children: <Widget>[
         Container(
@@ -23,7 +23,7 @@ class HomeView extends StatelessWidget {
           child: null,
         ),
         Container(
-          padding: EdgeInsets.all(60),
+          padding: EdgeInsets.fromLTRB(60, 0, 60, 60+kToolbarHeight),
           alignment: Alignment.bottomLeft,
           height: ctxHeight,
           width: ctxWidth,
