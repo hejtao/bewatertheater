@@ -32357,13 +32357,13 @@ U.Pc.prototype={
 $0(){this.a.c.f7(this.b)},
 $S:0}
 U.Pd.prototype={
-$0(){this.a.c.f7(this.b*1.5-9)},
+$0(){this.a.c.f7(this.b*1.5-8)},
 $S:0}
 U.Pf.prototype={
 $0(){this.a.c.f7(this.b)},
 $S:0}
 U.Pg.prototype={
-$0(){this.a.c.f7(this.b*1.5-9)},
+$0(){this.a.c.f7(this.b*1.5-8)},
 $S:0}
 Y.zU.prototype={
 oc(a){var s=this.b[a]
@@ -55293,7 +55293,7 @@ C.db=new K.yT("CupertinoUserInterfaceLevelData.base")
 C.i1=new K.yT("CupertinoUserInterfaceLevelData.elevated")
 C.yh=new Z.pO(null,null,null,null,null,null,null,null,null,null,null)
 C.yi=new A.MH("DebugSemanticsDumpOrder.traversalOrder")
-C.ul=new L.m_("assets/images/text-logo.png")
+C.ul=new L.m_("assets/images/text-logo2.png")
 C.bK=new X.mC("ImageRepeat.noRepeat")
 C.eJ=new P.mx(1,"FilterQuality.low")
 C.yj=new X.pQ(C.ul,C.eq)
